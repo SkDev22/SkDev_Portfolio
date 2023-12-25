@@ -24,7 +24,6 @@ const Header = () => {
         {/* text div */}
         <div
           className="text-center md:text-left md:flex-1"
-          data-aos="fade-down"
         >
           <h3 className="font-semibold text-white text-xl">Hello, Welcome</h3>
           <h1 className=" text-5xl md:text-[60px] text-[#fb8b24] font-bold my-5">
@@ -82,7 +81,7 @@ const Header = () => {
           </div>
         </div>
         {/* image div */}
-        <div data-aos="fade-up">
+        <div>
           <img
             className="md:w-[400px] w-[370px] md:h-[500px] h-[420px] grayscale-50 md:ml-auto mx-auto rounded-xl shadow-xl shadow-slate-800 mt-10 md:mt-0"
             src={i02}
