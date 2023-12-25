@@ -23,7 +23,7 @@ const Header = () => {
       <div className=" absolute mt-20 md:mt-32 md:flex md:justify-between block px-5 md:px-36 md:items-center md:gap-5">
         {/* text div */}
         <div
-          className="text-center md:text-left md:flex-1"
+          className="text-center md:text-left md:flex-1" data-aos="fade-down"
         >
           <h3 className="font-semibold text-white text-xl">Hello, Welcome</h3>
           <h1 className=" text-5xl md:text-[60px] text-[#fb8b24] font-bold my-5">
@@ -81,7 +81,7 @@ const Header = () => {
           </div>
         </div>
         {/* image div */}
-        <div>
+        <div data-aos="fade-up">
           <img
             className="md:w-[400px] w-[370px] md:h-[500px] h-[420px] grayscale-50 md:ml-auto mx-auto rounded-xl shadow-xl shadow-slate-800 mt-10 md:mt-0"
             src={i02}
