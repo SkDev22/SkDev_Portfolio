@@ -59,7 +59,7 @@ const Projects = () => {
             title="Movie Detail Website"
             description="This is my simple individual project. Using this website users can search movies using movie name and find it's released date and other details. (Still developping)"
             img={movie}
-            link="https://github.com/SkDev22"
+            link="https://github.com/SkDev22/MovieNet"
           />
 
           <ProjectCard
