@@ -86,7 +86,7 @@ const Contact = () => {
                 required
               ></textarea>
               <input
-                className="w-[50%] mx-auto text-white bg-[#fb8b24] px-3 py-2 rounded-lg"
+                className="w-[50%] mx-auto text-white bg-[#fb8b24] px-3 py-2 rounded-lg cursor-pointer"
                 onClick={notify}
                 type="submit"
                 value="SEND"
